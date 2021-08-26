@@ -1,5 +1,21 @@
-/* #player-1-play,
+#player-1-play,
 #player-2-play,
 #win-display {
   display: none;
-} */
+}
+
+.dice-img {
+  width: 100px;
+  display: none;
+}
+
+body {
+  background-image: url("../img/dice-background.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  color: lightgray;
+}
+
+button {
+  margin-left: 10px;
+}
